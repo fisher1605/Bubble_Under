@@ -1,0 +1,278 @@
+
+/* CSS For Bubble Under Site */
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: x-large;
+    background-color: navy;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: .2em;
+    padding-left: .4em;
+    margin: 0;
+    background: navy url(gallery/background5.jpg) no-repeat;
+    background-size: 100%;
+}
+
+h2{
+    color: blue;
+    font-size: 130%;
+    font-weight: normal;
+    padding-top: 15px;
+}
+
+
+#mainnavigation {
+    width: 180px;
+    border: 1px navy;
+    background-color: #7da5d8;
+}
+
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #e2edff;
+    line-height: 125%;
+    padding: 0px;
+    border: 0px;
+}
+
+
+p {
+    font-weight: bold;
+    color: blue;
+}
+
+p {
+    font-size: small;
+    color: navy;
+}
+
+#tagline p {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #bed8f3;
+    border-top: 3px solid #7da5d8;
+    border-bottom: 3px solid #7da5d8;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .8em;
+    margin: 0;
+    background: #bed8f3 url(gallery/background1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+li {
+    font-size: small;
+    list-style-type: none;
+}
+
+em {
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color:navy;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: navy;
+    }
+
+a:active {
+    color: aqua;
+    background-color: navy;
+}    
+
+.fun {
+    color: #339999;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05em;
+}
+
+.attentiongrab {
+    width: 50%;
+    font-weight: bold;
+}
+
+/* Layout for the whole page */
+
+ul, h2 {
+    margin-top: 15px;
+}
+
+
+#mainnavigation, #bodycontent, #header {
+    position: absolute;
+}
+
+#mainnavigation, #bodycontent {
+    top: 6.54em;
+}
+
+#bodycontent {
+    left: 200px;
+}
+
+#header {
+    width: 100%;
+    border-top: 3px solid #7da5d8;
+}
+
+.feature {
+    float: right;
+    margin: 10px;
+}
+
+.galleryphoto img {
+    border: 15px solid  white;
+}
+
+.galleryphoto p {
+    font-size: 65%;
+    font-weight: bold;
+    margin-top: 0;
+    width: 430px;
+    line-height: 1.4em;
+}
+
+.photocredit {
+    font-weight: normal;
+    color: grey;
+}
+
+.galleryphoto {
+    padding-bottom: 20px;
+    border-bottom: 1px solid navy;
+    margin-top: 10px;
+}
+
+#mainnavigation {
+    width: 180px;
+    height: 484px;
+    background: #7da5db url(Gallery/background3.jpg) no-repeat;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0.2em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+    background: gray;
+    color: white;
+    padding: 0.2em;
+}
+
+table.events {
+    border-collapse: collapse;
+}
+
+table.events th, table.events td {
+    padding: 4px;
+    border: 1px solid #000066;
+}
+
+table.events th {
+    font-size: x-small;
+    text-align: left;
+    background: #241374 url(gallery/background6.jpg);
+    color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+table.events td {
+    font-size: small;
+    background: #bed8f3 url(gallery/background6.jpg) repeat-x top;
+    color: white;
+}
+
+table.events caption {
+    color: #000066;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+form.contact fieldset {
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+form.contact legend {
+    font-weight: bold;
+    font-size: small;
+    color: navy;
+    padding: 5px;
+}
+
+form.contact {
+    padding: 0;
+    margin: 0;
+    margin-top: -15px;
+    line-height: 150%;
+}
+
+form.contact label {
+    font-weight: bold;
+    font-size: small;
+    color: blue;
+}
+
+form.contact label.fixedwidth {
+    display: inline-block;
+    width: 240px;
+}
+
+form.contact .buttonarea input {
+    background: navy;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+form.contact .buttonarea {
+    text-align: center;
+    padding: 4px;
+    background-color: lightblue;
+}
+
+img.feature {
+    float: right;
+    margin: 10px;
+}
+
+.aside {
+    float: right;
+    margin: 5px;
+    width: 340px;
+}
+
+.homeimage {
+    float: left;
+    margin: 0 10px 10px 0;
+}
