@@ -209,8 +209,7 @@ table.events th {
 
 table.events td {
     font-size: small;
-    background: #bed8f3 url(gallery/background6.jpg) repeat-x top;
-    color: white;
+    color: black;
 }
 
 table.events caption {
