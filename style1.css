@@ -82,7 +82,7 @@ a {
 }
 
 a:link {
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: white;
-    background-color: navy;
+    background-color: green;
     }
 
 a:active {
